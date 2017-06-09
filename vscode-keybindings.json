@@ -1,0 +1,48 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "editor.emmet.action.matchingPair"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "editor.emmet.action.wrapWithAbbreviation"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "editor.emmet.action.updateTag"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "editor.action.joinLines"
+    },
+    {
+        "key": "ctrl+shift+.",
+        "command": "editor.emmet.action.balanceOutward",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+,",
+        "command": "editor.emmet.action.balanceInward",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletVisible && filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletVisible && filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "editor.emmet.action.splitJoinTag"
+    }
+]

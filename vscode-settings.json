@@ -1,0 +1,15 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Bluloco Dark",
+    "workbench.sideBar.location": "right",
+    "editor.formatOnSave": true,
+    "prettier.singleQuote": true,
+    "prettier.semi": false,
+    "prettier.eslintIntegration": true,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html"
+    }
+}
