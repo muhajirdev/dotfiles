@@ -1,15 +1,52 @@
 {
+    // vscode
     "window.menuBarVisibility": "toggle",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "workbench.colorTheme": "Bluloco Dark",
     "workbench.sideBar.location": "right",
-    "editor.formatOnSave": true,
-    "prettier.singleQuote": true,
-    "prettier.semi": false,
-    "prettier.eslintIntegration": true,
+    // prettier formatting
+    "editor.formatOnSave": false,
+    // "editor.snippetSuggestions": "top",
+    // "prettier.singleQuote": true,
+    // "prettier.semi": false,
+    // "prettier.eslintIntegration": true,
+    // vim
     "vim.disableAnnoyingNeovimMessage": true,
     "emmet.syntaxProfiles": {
         "vue-html": "html",
-        "vue": "html"
+        "vue": "html",
+        "javascript": "jsx"
+    },
+    "vim.easymotion": true,
+    "vim.leader": ",",
+    "vim.handleKeys":{
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "search.useIgnoreFilesByDefault": true,
+    "workbench.startupEditor": "newUntitledFile",
+
+    // vetur
+    "vetur.format.js.InsertSpaceBeforeFunctionParenthesis": true,
+    "vetur.format.html.wrap_attributes": "force-expand-multiline",
+    "vetur.format.html.wrap_line_length": 80,
+    "rust.mode": "rls",
+    "rust.rustup": {
+        "nightlyToolchain": "nightly-x86_64-unknown-linux-gnu",
+        "toolchain": "nightly-x86_64-unknown-linux-gnu"
+    },
+    "rust.rls": {
+        "useRustfmt": true
     }
 }
