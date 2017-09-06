@@ -1,4 +1,10 @@
 # My Dotfiles
 
-This Repository contain my dotfiles.
-Currently only contains tmux, neovim, and zprezto config
+This Repository contain my dotfiles configuration.
+Currently only contains dotfiles configuration for :
+- tmux
+- vim / neovim
+- zsh with zprezto
+- vscode:
+  - settings
+  - keybindings
