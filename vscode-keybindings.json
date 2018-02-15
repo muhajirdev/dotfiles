@@ -32,17 +32,15 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+shift+n",
-        "command": "explorer.newFolder",
-        "when": "explorerViewletVisible && filesExplorerFocus"
-    },
-    {
         "key": "ctrl+shift+j",
         "command": "editor.emmet.action.splitJoinTag"
     },
     {
-        "key": "ctrl+d",
-        "command": "editor.action.addSelectionToNextFindMatch",
-        "when": "editorFocus"
+        "key": "ctrl+alt+.",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "ctrl+alt+,",
+        "command": "workbench.action.terminal.focusPrevious"
     }
 ]
