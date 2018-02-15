@@ -7,21 +7,30 @@
     // prettier formatting
     "editor.formatOnSave": false,
     // "editor.snippetSuggestions": "top",
-    // "prettier.singleQuote": true,
     // "prettier.semi": false,
     // "prettier.eslintIntegration": true,
     // vim
-    "vim.disableAnnoyingNeovimMessage": true,
+    "emmet.triggerExpansionOnTab": true,
     "emmet.syntaxProfiles": {
         "vue-html": "html",
         "vue": "html",
         "javascript": "jsx"
     },
     "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.foldfix": true,
+    "vim.visualstar": true,
+    "vim.cmdLineInitialColon": true,
     "vim.leader": ",",
-    "vim.handleKeys":{
+    "vim.handleKeys": {
         "<C-a>": false,
-        "<C-f>": false
+        "<C-f>": false,
+        "<C-b>": false,
+        "<C-w>": false,
+        "<C-d>": false,
+        "<C-n>": false,
+        "<C-S-n>": false,
+        "<C-c>": false
     },
     "vim.insertModeKeyBindings": [
         {
@@ -36,7 +45,6 @@
     ],
     "search.useIgnoreFilesByDefault": true,
     "workbench.startupEditor": "newUntitledFile",
-
     // vetur
     "vetur.format.js.InsertSpaceBeforeFunctionParenthesis": true,
     "vetur.format.html.wrap_attributes": "force-expand-multiline",
@@ -48,5 +56,7 @@
     },
     "rust.rls": {
         "useRustfmt": true
-    }
+    },
+    "[go]": {},
+    "git.autofetch": true
 }
