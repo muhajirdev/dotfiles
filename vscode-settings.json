@@ -46,9 +46,6 @@
     "search.useIgnoreFilesByDefault": true,
     "workbench.startupEditor": "newUntitledFile",
     // vetur
-    "vetur.format.js.InsertSpaceBeforeFunctionParenthesis": true,
-    "vetur.format.html.wrap_attributes": "force-expand-multiline",
-    "vetur.format.html.wrap_line_length": 80,
     "rust.mode": "rls",
     "rust.rustup": {
         "nightlyToolchain": "nightly-x86_64-unknown-linux-gnu",
@@ -58,5 +55,11 @@
         "useRustfmt": true
     },
     "[go]": {},
-    "git.autofetch": true
+    "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.colorCustomizations": {},
+    "materialTheme.cache.workbench.settings": {
+        "accentPrevious": "Bright Teal",
+        "themeColours": "Palenight"
+    }
 }
