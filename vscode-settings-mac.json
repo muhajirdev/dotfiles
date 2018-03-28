@@ -1,0 +1,69 @@
+{
+  // font
+  "editor.fontFamily": "'Fira Code'",
+//   "editor.fontSize": 13,
+//   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Bluloco Dark Operator Mono",
+  "workbench.sideBar.location": "right",
+  // prettier formatting
+  "editor.formatOnSave": false,
+  // "editor.snippetSuggestions": "top",
+  // "prettier.semi": false,
+  // "prettier.eslintIntegration": true,
+  // vim
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html",
+    "javascript": "jsx"
+  },
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.foldfix": true,
+  "vim.visualstar": true,
+  "vim.cmdLineInitialColon": true,
+  "vim.leader": ",",
+  // "vim.handleKeys": {
+  //     "<C-a>": false,
+  //     "<C-f>": false,
+  //     "<C-b>": false,
+  //     "<C-w>": false,
+  //     "<C-d>": false,
+  //     "<C-n>": false,
+  //     "<C-S-n>": false,
+  //     "<C-c>": false
+  // },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "workbench.startupEditor": "newUntitledFile",
+  // vetur
+  "[go]": {},
+  "git.autofetch": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorCustomizations": {
+    "terminal.ansiBlack": "#282a36",
+    "terminal.ansiBlue": "#57c7ff",
+    "terminal.ansiBrightBlack": "#686868",
+    "terminal.ansiBrightBlue": "#57c7ff",
+    "terminal.ansiBrightCyan": "#9aedfe",
+    "terminal.ansiBrightGreen": "#5af78e",
+    "terminal.ansiBrightMagenta": "#ff6ac1",
+    "terminal.ansiBrightRed": "#ff5c57",
+    "terminal.ansiBrightWhite": "#eff0eb",
+    "terminal.ansiBrightYellow": "#f3f99d",
+    "terminal.ansiCyan": "#9aedfe",
+    "terminal.ansiGreen": "#5af78e",
+    "terminal.ansiMagenta": "#ff6ac1",
+    "terminal.ansiRed": "#ff5c57",
+    "terminal.ansiWhite": "#f1f1f0",
+    "terminal.ansiYellow": "#f3f99d",
+    "terminalCursor.foreground": "#97979b",
+    "terminalCursor.background": "#eff0eb",
+  },
+}
