@@ -1,8 +1,13 @@
 {
+  "python.pythonPath": "/anaconda3",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": true,
   // font
   "editor.fontFamily": "'Fira Code'",
-//   "editor.fontSize": 13,
-//   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  //   "editor.fontSize": 13,
+  //   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Bluloco Dark Operator Mono",
@@ -64,6 +69,6 @@
     "terminal.ansiWhite": "#f1f1f0",
     "terminal.ansiYellow": "#f3f99d",
     "terminalCursor.foreground": "#97979b",
-    "terminalCursor.background": "#eff0eb",
-  },
+    "terminalCursor.background": "#eff0eb"
+  }
 }
