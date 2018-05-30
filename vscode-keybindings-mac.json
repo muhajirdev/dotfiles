@@ -1,16 +1,27 @@
 [
     {
+        // Disable quitting Vscode when accidently pressing cmd+q
+        "key": "cmd+q",
+    },
+    {
         "key": "cmd+m",
         "command": "editor.emmet.action.matchTag",
+    },
+    {
+        "key": "shift+cmd+n",
+        "command": "editor.emmet.action.updateTag",
+        "when": "editorTextFocus"
     },
     {
         "key": "shift+cmd+i",
         "command": "editor.action.format",
         "when": "editorTextFocus"
-    },{
+    },
+    {
         "key": "ctrl+shift+m",
         "command": "editor.emmet.action.wrapWithAbbreviation",
-    },{
+    },
+    {
         "key": "shift+cmd+j",
         "command": "editor.emmet.action.splitJoinTag",
         "when": "editorTextFocus"
@@ -19,22 +30,25 @@
         "key": "shift+cmd+.",
         "command": "editor.emmet.action.balanceOut",
         "when": "editorTextFocus"
-    },{
+    },
+    {
         "key": "shift+cmd+,",
         "command": "editor.emmet.action.balanceIn",
         "when": "editorTextFocus"
-    },{
+    },
+    {
         "key": "alt+cmd+,",
         "command": "workbench.action.terminal.focusPrevious",
         "when": "editorTextFocus"
-    },{
+    },
+    {
         "key": "alt+cmd+.",
         "command": "workbench.action.terminal.focusNext",
         "when": "editorTextFocus"
-    },{
+    },
+    {
         "key": "cmd+r",
         "command": "workbench.action.debug.restart",
         "when": "inDebugMode"
     }
-
 ]
