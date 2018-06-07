@@ -1,11 +1,12 @@
-# My Dotfiles
+# Dotfiles
 
 This Repository contain my dotfiles configuration.
 
 Currently only contains dotfiles configuration for :
 - tmux
 - vim / neovim
-- zsh with zprezto
+- zsh with https://github.com/sindresorhus/pure
 - vscode:
   - settings
   - keybindings
+
