@@ -40,4 +40,4 @@ brew cask install font-fira-code
 <img width="373" alt="screen shot 2018-05-30 at 13 57 37" src="https://user-images.githubusercontent.com/12745166/42081158-f1e40830-7bae-11e8-8d22-2854df8e073e.png">
 <img width="374" alt="screen shot 2018-05-30 at 13 57 50" src="https://user-images.githubusercontent.com/12745166/42081153-eeb52b80-7bae-11e8-9786-fd776d6fa356.png">
 
-- Use blulocodark-operator-mono theme
+- Use Bluloco Dark Operator Mono theme
