@@ -29,6 +29,7 @@ brew cask install font-fira-code
 - Install [Hyper](https://hyper.is) termimal.
 - Install pure `npm install --global pure-prompt`
 - Install [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy) `hyper install hyper-snazzy`
+- Install [hypercwd](https://github.com/hharnisc/hypercwd) `hyper install hypercwd`
 - Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 `brew install zsh-syntax-highlighting`
 - Put `.zshenv` and `.zshrc` into your home folder (`~/.zshenv` and `~/.zshrc`)
