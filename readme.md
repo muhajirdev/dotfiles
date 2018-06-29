@@ -35,8 +35,8 @@ brew cask install font-fira-code
 
 ## Vscode
 - Install [vscode](http://code.visualstudio.com)
-- Put `vscode-keybindings-mac.json` into your vscode keybinding file, if you're using mac. Otherwise use `vscode-keybindings.json`
-- Put `vscode-settings-mac.json` into your vscode settings file, if you're using mac. Otherwise use `vscode-settings.json`
+- Put `vscode-keybindings-mac.json` from this repository into your vscode keybinding file, if you're using mac. Otherwise use `vscode-keybindings.json`
+- Put `vscode-settings-mac.json` from this repository into your vscode settings file, if you're using mac. Otherwise use `vscode-settings.json`
 - Install the following plugins:
 <img width="365" alt="screen shot 2018-05-30 at 13 57 29" src="https://user-images.githubusercontent.com/12745166/42081162-f3873388-7bae-11e8-81bd-86169e314004.png">
 <img width="373" alt="screen shot 2018-05-30 at 13 57 37" src="https://user-images.githubusercontent.com/12745166/42081158-f1e40830-7bae-11e8-8d22-2854df8e073e.png">
