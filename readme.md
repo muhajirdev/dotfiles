@@ -32,6 +32,7 @@ brew cask install font-fira-code
 - Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 `brew install zsh-syntax-highlighting`
 - Put `.zshenv` and `.zshrc` into your home folder (`~/.zshenv` and `~/.zshrc`)
+- Change default shell to zsh `chsh -s $(which zsh)`
 
 ## Vscode
 - Install [vscode](http://code.visualstudio.com)
