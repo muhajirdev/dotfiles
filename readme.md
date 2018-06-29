@@ -11,7 +11,9 @@ Currently only contains dotfiles configuration for :
   - keybindings
 - Fira Code font
 
-# Getting Started.
+# Getting Started
+
+The following steps are how I set up my working environment
 
 ## Install Fira code 
 https://github.com/tonsky/FiraCode/wiki
