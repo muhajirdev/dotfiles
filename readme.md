@@ -44,3 +44,6 @@ brew cask install font-fira-code
 <img width="374" alt="screen shot 2018-05-30 at 13 57 50" src="https://user-images.githubusercontent.com/12745166/42081153-eeb52b80-7bae-11e8-9786-fd776d6fa356.png">
 
 - Use Bluloco Dark Operator Mono theme
+
+## Git Credential
+`git config --global credential.helper osxkeychain`
