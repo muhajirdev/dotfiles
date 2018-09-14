@@ -1,5 +1,5 @@
 {
-  "python.pythonPath": "/anaconda3",
+  "arduino.path": "/Applications",
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
@@ -10,7 +10,6 @@
   //   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Bluloco Dark Operator Mono",
   "workbench.sideBar.location": "right",
   // prettier formatting
   "editor.formatOnSave": false,
@@ -28,7 +27,7 @@
   "vim.sneak": true,
   "vim.foldfix": true,
   "vim.visualstar": true,
-  "vim.cmdLineInitialColon": true,
+  "vim.sneakUseIgnorecaseAndSmartcase": true,
   "vim.leader": ",",
   // "vim.handleKeys": {
   //     "<C-a>": false,
@@ -47,28 +46,26 @@
     }
   ],
   "workbench.startupEditor": "newUntitledFile",
-  // vetur
   "[go]": {},
   "git.autofetch": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.colorCustomizations": {
-    "terminal.ansiBlack": "#282a36",
-    "terminal.ansiBlue": "#57c7ff",
-    "terminal.ansiBrightBlack": "#686868",
-    "terminal.ansiBrightBlue": "#57c7ff",
-    "terminal.ansiBrightCyan": "#9aedfe",
-    "terminal.ansiBrightGreen": "#5af78e",
-    "terminal.ansiBrightMagenta": "#ff6ac1",
-    "terminal.ansiBrightRed": "#ff5c57",
-    "terminal.ansiBrightWhite": "#eff0eb",
-    "terminal.ansiBrightYellow": "#f3f99d",
-    "terminal.ansiCyan": "#9aedfe",
-    "terminal.ansiGreen": "#5af78e",
-    "terminal.ansiMagenta": "#ff6ac1",
-    "terminal.ansiRed": "#ff5c57",
-    "terminal.ansiWhite": "#f1f1f0",
-    "terminal.ansiYellow": "#f3f99d",
-    "terminalCursor.foreground": "#97979b",
-    "terminalCursor.background": "#eff0eb"
-  }
+  "[javascriptreact]": {},
+  "git.path": "/usr/bin/git",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": true,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Nord",
+  "editor.multiCursorModifier": "alt",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["K"],
+      "after": ["g", "t"]
+    },
+    {
+      "before": ["J"],
+      "after": ["g", "T"]
+    }
+  ]
 }
