@@ -4,19 +4,11 @@
     "suppressShowKeyBindingsNotice": true
   },
   "gitlens.historyExplorer.enabled": true,
-  // font
   "editor.fontFamily": "'Fira Code'",
-  //   "editor.fontSize": 13,
-  //   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "window.zoomLevel": 0,
   "workbench.sideBar.location": "right",
-  // prettier formatting
   "editor.formatOnSave": false,
-  // "editor.snippetSuggestions": "top",
-  // "prettier.semi": false,
-  // "prettier.eslintIntegration": true,
-  // vim
   "emmet.triggerExpansionOnTab": true,
   "emmet.syntaxProfiles": {
     "vue-html": "html",
@@ -29,16 +21,6 @@
   "vim.visualstar": true,
   "vim.sneakUseIgnorecaseAndSmartcase": true,
   "vim.leader": ",",
-  // "vim.handleKeys": {
-  //     "<C-a>": false,
-  //     "<C-f>": false,
-  //     "<C-b>": false,
-  //     "<C-w>": false,
-  //     "<C-d>": false,
-  //     "<C-n>": false,
-  //     "<C-S-n>": false,
-  //     "<C-c>": false
-  // },
   "vim.insertModeKeyBindings": [
     {
       "before": ["j", "k"],
