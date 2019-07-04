@@ -1,54 +1,120 @@
+// Place your key bindings in this file to overwrite the defaults
 [
-    {
-        // Disable quitting Vscode when accidently pressing cmd+q
-        "key": "cmd+q",
-    },
-    {
-        "key": "cmd+m",
-        "command": "editor.emmet.action.matchTag",
-    },
-    {
-        "key": "shift+cmd+n",
-        "command": "editor.emmet.action.updateTag",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+cmd+i",
-        "command": "editor.action.format",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+m",
-        "command": "editor.emmet.action.wrapWithAbbreviation",
-    },
-    {
-        "key": "shift+cmd+j",
-        "command": "editor.emmet.action.splitJoinTag",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+cmd+.",
-        "command": "editor.emmet.action.balanceOut",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+cmd+,",
-        "command": "editor.emmet.action.balanceIn",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+cmd+,",
-        "command": "workbench.action.terminal.focusPrevious",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+cmd+.",
-        "command": "workbench.action.terminal.focusNext",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "cmd+r",
-        "command": "workbench.action.debug.restart",
-        "when": "inDebugMode"
-    }
+  {
+    // Disable quitting Vscode when accidently pressing cmd+q
+    "key": "cmd+q"
+  },
+  {
+    "key": "cmd+m",
+    "command": "editor.emmet.action.matchTag"
+  },
+  {
+    "key": "shift+cmd+n",
+    "command": "editor.emmet.action.updateTag",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "editor.action.format",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+  },
+  {
+    "key": "shift+cmd+j",
+    "command": "editor.emmet.action.splitJoinTag",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+.",
+    "command": "editor.emmet.action.balanceOut",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+,",
+    "command": "editor.emmet.action.balanceIn",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.debug.restart",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "cmd+i",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "shift+cmd+.",
+    "command": "workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "-workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+cmd+down",
+    "command": "-workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+cmd+,",
+    "command": "workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+cmd+up",
+    "command": "-workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+cmd+g",
+    "command": "workbench.view.scm",
+    "when": "gitlens:enabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "gitlens:enabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "shift+cmd+s",
+    "command": "git.stage"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "git.commit"
+  },
+  {
+    "key": "l",
+    "command": "list.toggleExpand",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "space",
+    "command": "-list.toggleExpand",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "space",
+    "command": "list.select",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "cmd+down",
+    "command": "-list.select",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "shift+cmd+-",
+    "command": "extension.getPersonelGithubToken"
+  },
+  {
+    "key": "f2",
+    "command": "-extension.getPersonelGithubToken"
+  }
 ]
